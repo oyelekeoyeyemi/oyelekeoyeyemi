@@ -1,0 +1,1072 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='assignment4' inline='true' name='federated.1c4mqmc1c6uksx1gq65ow1fyz69w' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='assignment4' name='textscan.1k1ij1d0ddt7cw13rcsci0q0ouug'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/ooyeleke/OneDrive - Iowa State University/Documents/GitHub/LA558_2022/web/Assignment4/assignment4.csv' dataRefreshTime='' directory='C:/Users/ooyeleke/OneDrive - Iowa State University/Documents/GitHub/LA558_2022/web/Assignment4' filename='C:/Users/ooyeleke/AppData/Local/Temp/TableauTemp/0112sfi1lvv9jg11fjghp04ku9hu/assignment4.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1k1ij1d0ddt7cw13rcsci0q0ouug' name='assignment4.csv' table='[assignment4#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:K3140:no:A1:K3140:0' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='FROM_TO_DES MOINES' ordinal='0' />
+            <column datatype='datetime' date-parse-format='EEEE, MMMM dd, yyyy' name='F1' ordinal='1' />
+            <column datatype='datetime' date-parse-format='hh:mm a' name='F2' ordinal='2' />
+            <column datatype='string' name='F3' ordinal='3' />
+            <column datatype='string' name='F4' ordinal='4' />
+            <column datatype='string' name='F5' ordinal='5' />
+            <column datatype='string' name='F6' ordinal='6' />
+            <column datatype='string' name='F7' ordinal='7' />
+            <column datatype='string' name='F8' ordinal='8' />
+            <column datatype='string' name='F9' ordinal='9' />
+            <column datatype='string' name='F10' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1k1ij1d0ddt7cw13rcsci0q0ouug' name='assignment4.csv' table='[assignment4#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:K3140:no:A1:K3140:0' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='FROM_TO_DES MOINES' ordinal='0' />
+            <column datatype='datetime' date-parse-format='EEEE, MMMM dd, yyyy' name='F1' ordinal='1' />
+            <column datatype='datetime' date-parse-format='hh:mm a' name='F2' ordinal='2' />
+            <column datatype='string' name='F3' ordinal='3' />
+            <column datatype='string' name='F4' ordinal='4' />
+            <column datatype='string' name='F5' ordinal='5' />
+            <column datatype='string' name='F6' ordinal='6' />
+            <column datatype='string' name='F7' ordinal='7' />
+            <column datatype='string' name='F8' ordinal='8' />
+            <column datatype='string' name='F9' ordinal='9' />
+            <column datatype='string' name='F10' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K3140:no:A1:K3140:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FROM_TO_DES MOINES</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FROM_TO_DES MOINES]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>FROM_TO_DES MOINES</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[assignment4.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='DATE AND TIME' datatype='datetime' name='[F1]' role='dimension' type='ordinal' />
+      <column caption='Flight' datatype='string' name='[F3]' role='dimension' type='nominal' />
+      <column caption='FROM' datatype='string' name='[F4]' role='dimension' type='nominal' />
+      <column caption='AIRLINE' datatype='string' name='[F5]' role='dimension' type='nominal' />
+      <column caption='AIRCRAFFT' datatype='string' name='[F6]' role='dimension' type='nominal' />
+      <column caption='From To Des Moines' datatype='string' name='[FROM_TO_DES MOINES]' role='dimension' semantic-role='[Airport].[Name]' type='nominal'>
+        <semantic-values semantic-role='[Geographical].[Latitude]'>
+          <semantic-value key='&quot;JZI&quot;' value='32.700000000000003' />
+          <semantic-value key='&quot;MKT&quot;' value='38.653300000000002' />
+          <semantic-value key='&quot;QQL&quot;' value='48.726300000000002' />
+          <semantic-value key='&quot;RIL&quot;' value='39.526299999999999' />
+        </semantic-values>
+        <semantic-values semantic-role='[Geographical].[Longitude]'>
+          <semantic-value key='&quot;JZI&quot;' value='-80.001999999999995' />
+          <semantic-value key='&quot;MKT&quot;' value='-78.704800000000006' />
+          <semantic-value key='&quot;QQL&quot;' value='-116.2944' />
+          <semantic-value key='&quot;RIL&quot;' value='-107.7269' />
+        </semantic-values>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='assignment4.csv' datatype='table' name='[__tableau_internal_object_id__].[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]' role='measure' type='quantitative' />
+      <column-instance column='[F5]' derivation='None' name='[none:F5:nk]' pivot='key' type='nominal' />
+      <column-instance column='[F1]' derivation='Weekday' name='[wd:F1:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (AIRLINE)' hidden='true' name='[Action (AIRLINE)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[F5]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (WEEKDAY(DATE AND TIME),AIRLINE)' hidden='true' name='[Action (WEEKDAY(DATE AND TIME),AIRLINE)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[wd:F1:ok]' />
+          <groupfilter function='level-members' level='[F5]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/ooyeleke/OneDrive - Iowa State University/Documents/GitHub/LA558_2022/web/Assignment4/assignment4.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/18/2022 12:35:05 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='assignment4' increment-value='%null%' refresh-type='create' rows-inserted='3139' timestamp-start='2022-04-18 00:35:05.270' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>FROM_TO_DES MOINES</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FROM_TO_DES MOINES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FROM_TO_DES MOINES</remote-alias>
+              <ordinal>0</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>103</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>1</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>66</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F2</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[F2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F2</remote-alias>
+              <ordinal>2</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>432</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F3</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F3</remote-alias>
+              <ordinal>3</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>308</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F4</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F4</remote-alias>
+              <ordinal>4</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>151</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F5</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F5</remote-alias>
+              <ordinal>5</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F6</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F6</remote-alias>
+              <ordinal>6</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1392</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F7</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F7]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F7</remote-alias>
+              <ordinal>7</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F8</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F8]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F8</remote-alias>
+              <ordinal>8</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1197</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F9</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F9]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F9</remote-alias>
+              <ordinal>9</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F10</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F10</remote-alias>
+              <ordinal>10</ordinal>
+              <family>assignment4.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:F5:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;American Eagle&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Omni Air International&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;iAero Airways&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tradewind Aviation&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AirShare&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Maxair&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Wheels Up&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Delta&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Republic Airways&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ATI Jet&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pacific Coast Jet&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Allegiant Air&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mountain Aviation&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Xojet&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Freight Runners Express&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SpiritJets&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;-&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;IBC Airways&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;United&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FedEx&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SkyWest Airlines&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Amazon Air&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Net&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Eagle Creek Aviation&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Royal Air Freight&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Elite Airways&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Sierra West Airlines&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Flexjet&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Southwest Airlines&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Frontier&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sun Country Airlines&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Berry Aviation&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PlaneSense&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;American Airlines&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;North Star Aviation&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Air Charter Express&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Jet&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;UPS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Executive Jet Management&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Silver&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Contour Aviation&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Private&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AIRLINE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kalitta Charters&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;USA Jet Airlines&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='assignment4.csv' id='assignment4.csv_E8D236C72E0E43E788D7D9576B54597D'>
+            <properties context=''>
+              <relation connection='textscan.1k1ij1d0ddt7cw13rcsci0q0ouug' name='assignment4.csv' table='[assignment4#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:K3140:no:A1:K3140:0' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='FROM_TO_DES MOINES' ordinal='0' />
+                  <column datatype='datetime' date-parse-format='EEEE, MMMM dd, yyyy' name='F1' ordinal='1' />
+                  <column datatype='datetime' date-parse-format='hh:mm a' name='F2' ordinal='2' />
+                  <column datatype='string' name='F3' ordinal='3' />
+                  <column datatype='string' name='F4' ordinal='4' />
+                  <column datatype='string' name='F5' ordinal='5' />
+                  <column datatype='string' name='F6' ordinal='6' />
+                  <column datatype='string' name='F7' ordinal='7' />
+                  <column datatype='string' name='F8' ordinal='8' />
+                  <column datatype='string' name='F9' ordinal='9' />
+                  <column datatype='string' name='F10' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_8205F8F8BD8C478C9AD947EEE80A9F2A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 3' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_2F2D3D14E7CA4192A9BDA8DB638E4842]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='COMMERCIAL AIRLINES COMING TO DES MOINES IN DECEMBER, 2021' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='COMMERCIAL AIRLINES COMING TO DES MOINES IN DECEMBER, 2021'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='assignment4' name='federated.1c4mqmc1c6uksx1gq65ow1fyz69w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1c4mqmc1c6uksx1gq65ow1fyz69w'>
+            <column caption='DATE AND TIME' datatype='datetime' name='[F1]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='assignment4.csv' datatype='integer' name='[__tableau_internal_object_id__].[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]' role='measure' type='quantitative' />
+            <column caption='AIRLINE' datatype='string' name='[F5]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='assignment4.csv' datatype='table' name='[__tableau_internal_object_id__].[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[assignment4.csv_E8D236C72E0E43E788D7D9576B54597D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:assignment4.csv_E8D236C72E0E43E788D7D9576B54597D:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F5]' derivation='Count' name='[cnt:F5:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='MDY' name='[md:F1:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[F5]' derivation='None' name='[none:F5:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F1]' derivation='Weekday' name='[wd:F1:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Action (WEEKDAY(DATE AND TIME),AIRLINE)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_8205F8F8BD8C478C9AD947EEE80A9F2A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[wd:F1:ok]' />
+              <groupfilter function='level-members' level='[F5]' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[cnt:F5:qk]' included-values='in-range'>
+            <min>100</min>
+            <max>704</max>
+          </filter>
+          <filter class='categorical' column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[md:F1:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[md:F1:ok]' member='20211201' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211202' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211203' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211204' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211205' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211206' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211207' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211208' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211209' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211210' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211211' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211212' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211213' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211214' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211215' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211216' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211217' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211218' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211219' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211220' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211221' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211222' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211223' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211224' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211225' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211226' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211227' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211228' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211229' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211230' />
+              <groupfilter function='member' level='[md:F1:ok]' member='20211231' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[cnt:F5:qk]</column>
+            <column>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[md:F1:ok]</column>
+            <column>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Action (WEEKDAY(DATE AND TIME),AIRLINE)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[__tableau_internal_object_id__].[cnt:assignment4.csv_E8D236C72E0E43E788D7D9576B54597D:qk]' scope='rows' value='Count of flight' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[__tableau_internal_object_id__].[cnt:assignment4.csv_E8D236C72E0E43E788D7D9576B54597D:qk]' />
+              <text column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:F5:nk]' />
+              <color column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:F5:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{44D15E9B-484B-4CA1-B555-7332D7ACEBEC}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='assignment4' name='federated.1c4mqmc1c6uksx1gq65ow1fyz69w' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1c4mqmc1c6uksx1gq65ow1fyz69w'>
+            <column caption='DATE AND TIME' datatype='datetime' name='[F1]' role='dimension' type='ordinal' />
+            <column caption='AIRLINE' datatype='string' name='[F5]' role='dimension' type='nominal' />
+            <column caption='From To Des Moines' datatype='string' name='[FROM_TO_DES MOINES]' role='dimension' semantic-role='[Airport].[Name]' type='nominal'>
+              <semantic-values semantic-role='[Geographical].[Latitude]'>
+                <semantic-value key='&quot;JZI&quot;' value='32.700000000000003' />
+                <semantic-value key='&quot;MKT&quot;' value='38.653300000000002' />
+                <semantic-value key='&quot;QQL&quot;' value='48.726300000000002' />
+                <semantic-value key='&quot;RIL&quot;' value='39.526299999999999' />
+              </semantic-values>
+              <semantic-values semantic-role='[Geographical].[Longitude]'>
+                <semantic-value key='&quot;JZI&quot;' value='-80.001999999999995' />
+                <semantic-value key='&quot;MKT&quot;' value='-78.704800000000006' />
+                <semantic-value key='&quot;QQL&quot;' value='-116.2944' />
+                <semantic-value key='&quot;RIL&quot;' value='-107.7269' />
+              </semantic-values>
+            </column>
+            <column-instance column='[F5]' derivation='Count' name='[cnt:F5:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F5]' derivation='None' name='[none:F5:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FROM_TO_DES MOINES]' derivation='None' name='[none:FROM_TO_DES MOINES:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F1]' derivation='Weekday' name='[wd:F1:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Action (AIRLINE)]'>
+            <groupfilter function='level-members' level='[F5]' user:ui-action-filter='[Action2_2F2D3D14E7CA4192A9BDA8DB638E4842]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Action (WEEKDAY(DATE AND TIME),AIRLINE)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_8205F8F8BD8C478C9AD947EEE80A9F2A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[wd:F1:ok]' />
+              <groupfilter function='level-members' level='[F5]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Action (AIRLINE)]</column>
+            <column>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Action (WEEKDAY(DATE AND TIME),AIRLINE)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Longitude (generated)]' field-type='quantitative' max='-7827435.580875515' min='-14373907.452888345' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Latitude (generated)]' field-type='quantitative' max='6432541.6271164203' min='2684561.6787793473' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:F5:nk]' />
+              <size column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[cnt:F5:qk]' />
+              <lod column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:FROM_TO_DES MOINES:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Latitude (generated)]</rows>
+        <cols>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{0AE783B1-5A28-4D6D-ACA8-3F0ECC3894BD}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='assignment4' name='federated.1c4mqmc1c6uksx1gq65ow1fyz69w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1c4mqmc1c6uksx1gq65ow1fyz69w'>
+            <column caption='DATE AND TIME' datatype='datetime' name='[F1]' role='dimension' type='ordinal' />
+            <column caption='AIRLINE' datatype='string' name='[F5]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='Count' name='[cnt:F1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F5]' derivation='None' name='[none:F5:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F1]' derivation='Weekday' name='[wd:F1:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Action (AIRLINE)]'>
+            <groupfilter function='level-members' level='[F5]' user:ui-action-filter='[Action2_2F2D3D14E7CA4192A9BDA8DB638E4842]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[wd:F1:ok]'>
+            <groupfilter from='1' function='range' level='[wd:F1:ok]' to='7' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[wd:F1:ok]</column>
+            <column>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[Action (AIRLINE)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:F5:nk]' />
+              <lod column='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:F5:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[cnt:F1:qk]</rows>
+        <cols>[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[wd:F1:ok]</cols>
+      </table>
+      <simple-id uuid='{77EA2C91-199C-4CEB-91F3-33239078139B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='47000' id='3' name='Sheet 1' show-title='false' w='65600' x='2700' y='51375' />
+        <zone h='39125' id='4' name='COMMERCIAL AIRLINES COMING TO DES MOINES IN DECEMBER, 2021' show-title='false' w='35300' x='57400' y='8375' />
+        <zone h='41750' id='5' name='Sheet 3' show-title='false' w='29500' x='10100' y='8875' />
+        <zone h='22000' id='8' name='COMMERCIAL AIRLINES COMING TO DES MOINES IN DECEMBER, 2021' pane-specification-id='0' param='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:F5:nk]' type-v2='color' w='19300' x='70600' y='51750' />
+        <zone forceUpdate='true' h='9375' id='9' type-v2='text' w='75000' x='12600' y='500'>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>LAYER SHOWING COMMERCIAL AIRLINES FLIGHT TO DES MOINES IN DEC. 2021</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='12' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='9375' id='9' type-v2='text' w='75000' x='12600' y='500'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1'>LAYER SHOWING COMMERCIAL AIRLINES FLIGHT TO DES MOINES IN DEC. 2021</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39125' id='4' is-fixed='true' name='COMMERCIAL AIRLINES COMING TO DES MOINES IN DECEMBER, 2021' show-title='false' w='35300' x='57400' y='8375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='22000' id='8' name='COMMERCIAL AIRLINES COMING TO DES MOINES IN DECEMBER, 2021' pane-specification-id='0' param='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:F5:nk]' type-v2='color' w='19300' x='70600' y='51750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41750' id='5' is-fixed='true' name='Sheet 3' show-title='false' w='29500' x='10100' y='8875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47000' id='3' is-fixed='true' name='Sheet 1' show-title='false' w='65600' x='2700' y='51375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5EDC9E47-B572-45CF-A6ED-0C1CBC479A70}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[cnt:F5:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:F5:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A07569C3-D3FC-460F-8095-6FF39D0FA07E}' />
+    </window>
+    <window class='worksheet' name='COMMERCIAL AIRLINES COMING TO DES MOINES IN DECEMBER, 2021'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:F5:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5355F05F-B74F-433E-B647-361192760E54}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1c4mqmc1c6uksx1gq65ow1fyz69w].[none:F5:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DD0223A1-C022-4A72-92BC-FF9E2761719B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='COMMERCIAL AIRLINES COMING TO DES MOINES IN DECEMBER, 2021'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{2836C609-BBFD-4C30-92B3-059905C48B73}' />
+    </window>
+  </windows>
+</workbook>
